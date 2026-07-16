@@ -1,0 +1,91 @@
+{
+  "case_version": "0.1.0",
+  "id": "smoke-poster-001",
+  "request": {
+    "task": {
+      "mode": "single",
+      "output_mode": "structured",
+      "interaction_policy": "proceed_degraded",
+      "include_scoring": true,
+      "include_alternatives": false
+    },
+    "artifacts": [
+      {
+        "id": "A",
+        "image": "attachment:A",
+        "medium": "digital poster",
+        "dimensions": "900x1200 pixels",
+        "viewing_conditions": "full poster at native aspect ratio on screen",
+        "completion_state": "final"
+      }
+    ],
+    "intent": {
+      "objective": "Introduce Sindie as an energetic, evidence-led visual review experiment.",
+      "audience": "Designers and engineers evaluating the first Sindie prototype.",
+      "desired_perception": "Rigorous but visually adventurous.",
+      "desired_feeling": "Curiosity and constructive tension.",
+      "desired_action": "Inspect the evaluation output rather than accept it at face value.",
+      "content_priorities": [
+        "SINDIE",
+        "LOOK. REASON. QUESTION.",
+        "schema transport smoke test"
+      ],
+      "success_criteria": [
+        "The name is the immediate entry point.",
+        "The poster feels experimental without losing its reading path."
+      ]
+    },
+    "constraints": {
+      "required_content": [
+        "SINDIE",
+        "LOOK. REASON. QUESTION."
+      ],
+      "brand_guidelines": null,
+      "design_tokens": null,
+      "reference_artifacts": [],
+      "accessibility_requirements": [],
+      "other": []
+    },
+    "observed_outcomes": [],
+    "evaluation_contract": {
+      "status": "supplied",
+      "source": "supplied",
+      "contract_id": "smoke-poster",
+      "contract_version": "1.0.0",
+      "contract_hash": "sha256:16c975989dee17d0698c33d6574a46ee5b77fceeae0552b6b7260fa1dee0038f",
+      "cross_run_comparable": true,
+      "weights_source": "supplied",
+      "issues": [],
+      "scored_criteria": [
+        {
+          "id": "attention_and_effect",
+          "question": "Does the attention structure support the intended energetic but inspectable effect?",
+          "weight": 1,
+          "required_for_score": true
+        },
+        {
+          "id": "artifact_identity",
+          "question": "Does the poster establish and sustain a coherent local visual doctrine?",
+          "weight": 1,
+          "required_for_score": true
+        }
+      ],
+      "hard_constraints": [
+        {
+          "id": "required_copy",
+          "requirement": "The supplied required content is visibly present.",
+          "source": "supplied"
+        }
+      ]
+    },
+    "comparison_question": null
+  },
+  "attachments": {
+    "A": "artifact.png"
+  },
+  "expected": {
+    "review_status": [
+      "ready"
+    ]
+  }
+}

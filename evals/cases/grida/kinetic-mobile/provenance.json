@@ -1,0 +1,27 @@
+{
+  "provenance_version": "0.1.0",
+  "source": {
+    "collection": "Grida Library Home",
+    "page_url": "https://grida.co/library/o/16a17b89-f311-4af6-a228-bf4a74c9d1d9",
+    "description": "A suspended kinetic sculpture made of a curling patinated metal ribbon and hanging spheres, casting a soft shadow on a warm neutral wall.",
+    "author": "Grida",
+    "generator": "openai/gpt-image-2",
+    "retrieved_at": "2026-07-16"
+  },
+  "license": {
+    "id": "LicenseRef-GridaLibrary",
+    "url": "https://grida.co/library/license",
+    "asserted_on": "https://grida.co/library/o/16a17b89-f311-4af6-a228-bf4a74c9d1d9",
+    "checked_at": "2026-07-16"
+  },
+  "file": {
+    "path": "artifact.webp",
+    "media_type": "image/webp",
+    "width": 1537,
+    "height": 1023,
+    "byte_size": 44838,
+    "sha256": "0d954eef2aa3a4d7a257c3e08948c1e5347fab110b31a04f8d2d76eeb0534615"
+  },
+  "persistence": "repository_fixture",
+  "modifications": []
+}

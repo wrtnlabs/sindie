@@ -1,0 +1,27 @@
+{
+  "provenance_version": "0.1.0",
+  "source": {
+    "collection": "Grida Library Home",
+    "page_url": "https://grida.co/library/o/062cc445-deb5-4133-aff7-837abdf1f91f",
+    "description": "A punk gig poster featuring a snarling dog rendered in high-contrast halftone with bold orange duotone and stacked band-name typography.",
+    "author": "Grida",
+    "generator": "openai/gpt-image-2",
+    "retrieved_at": "2026-07-16"
+  },
+  "license": {
+    "id": "LicenseRef-GridaLibrary",
+    "url": "https://grida.co/library/license",
+    "asserted_on": "https://grida.co/library/o/062cc445-deb5-4133-aff7-837abdf1f91f",
+    "checked_at": "2026-07-16"
+  },
+  "file": {
+    "path": "artifact.webp",
+    "media_type": "image/webp",
+    "width": 1074,
+    "height": 1465,
+    "byte_size": 1019250,
+    "sha256": "c2bd9f68c821cbe3882ddb7232000090532170cc838088abce0eca1faa11c844"
+  },
+  "persistence": "repository_fixture",
+  "modifications": []
+}

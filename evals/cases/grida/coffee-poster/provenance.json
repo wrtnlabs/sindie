@@ -1,0 +1,27 @@
+{
+  "provenance_version": "0.1.0",
+  "source": {
+    "collection": "Grida Library Home",
+    "page_url": "https://grida.co/library/o/1768244e-1bd3-44b3-84c1-9865b9524a01",
+    "description": "A bold typographic coffee poster pairing a giant headline with a product packaging shot set against a textured neutral background and a vivid blue circle.",
+    "author": "Grida",
+    "generator": "openai/gpt-image-2",
+    "retrieved_at": "2026-07-16"
+  },
+  "license": {
+    "id": "LicenseRef-GridaLibrary",
+    "url": "https://grida.co/library/license",
+    "asserted_on": "https://grida.co/library/o/1768244e-1bd3-44b3-84c1-9865b9524a01",
+    "checked_at": "2026-07-16"
+  },
+  "file": {
+    "path": "artifact.webp",
+    "media_type": "image/webp",
+    "width": 1122,
+    "height": 1402,
+    "byte_size": 519298,
+    "sha256": "94e0b9d486d4362602b9927b34f47d3a8cef715bac7eeda4a451cf3395b302e7"
+  },
+  "persistence": "repository_fixture",
+  "modifications": []
+}

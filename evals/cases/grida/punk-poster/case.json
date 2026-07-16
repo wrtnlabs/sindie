@@ -1,0 +1,118 @@
+{
+  "case_version": "0.1.0",
+  "id": "grida-home-gpt-image-2-punk-poster-001",
+  "request": {
+    "task": {
+      "mode": "single",
+      "output_mode": "structured",
+      "interaction_policy": "proceed_degraded",
+      "include_scoring": true,
+      "include_alternatives": false
+    },
+    "artifacts": [
+      {
+        "id": "A",
+        "image": "attachment:A",
+        "medium": "punk gig poster",
+        "dimensions": "1074x1465 pixels",
+        "viewing_conditions": "full vertical poster on screen",
+        "completion_state": "final"
+      }
+    ],
+    "intent": {
+      "objective": "Promote a punk gig while expressing an aggressive DIY identity through a snarling dog, orange duotone halftone, and stacked typography.",
+      "audience": "Punk and underground-music audiences encountering a gig poster.",
+      "desired_perception": "Urgent, raw, authentic, and energetic.",
+      "desired_feeling": "Intensity and anticipation.",
+      "desired_action": "Identify the acts, date, venue, and admission policy, then attend the event.",
+      "content_priorities": [
+        "Band lineup",
+        "Date, venue, and admission policy",
+        "Snarling dog as the event's aggressive visual anchor"
+      ],
+      "success_criteria": [
+        "The poster feels intentionally raw rather than carelessly degraded.",
+        "The lineup remains scannable inside the noisy image field.",
+        "Essential event information remains findable without weakening the punk identity."
+      ]
+    },
+    "constraints": {
+      "required_content": [
+        "Stacked band-name typography",
+        "Saturday 22 February",
+        "The Annex",
+        "Pay what you can"
+      ],
+      "brand_guidelines": null,
+      "design_tokens": null,
+      "reference_artifacts": [],
+      "accessibility_requirements": [],
+      "other": [
+        "This is a host-supplied evaluation frame derived from the published source description and visible artifact, not a claim about the original generation prompt.",
+        "Use a snarling dog, high-contrast halftone, and bold orange duotone treatment."
+      ]
+    },
+    "observed_outcomes": [],
+    "evaluation_contract": {
+      "status": "supplied",
+      "source": "supplied",
+      "contract_id": "punk-gig-poster",
+      "contract_version": "1.0.0",
+      "contract_hash": "sha256:5fd67d66660199cc610a342a314009730c3574a6e63d9734f6d26f93190bd70d",
+      "cross_run_comparable": true,
+      "weights_source": "supplied",
+      "issues": [],
+      "scored_criteria": [
+        {
+          "id": "genre_expression",
+          "question": "Does the orange duotone, halftone degradation, snarling dog, and rough typography create a convincing punk/DIY identity rather than generic visual noise?",
+          "weight": 1,
+          "required_for_score": true
+        },
+        {
+          "id": "information_hierarchy_under_noise",
+          "question": "Does the poster preserve a usable reading order for lineup and essential event details within its deliberately noisy treatment?",
+          "weight": 1,
+          "required_for_score": true
+        },
+        {
+          "id": "image_type_cohesion",
+          "question": "Do the dog image, stacked type, duotone color, and halftone texture reinforce one event identity?",
+          "weight": 1,
+          "required_for_score": true
+        }
+      ],
+      "hard_constraints": [
+        {
+          "id": "event_information",
+          "requirement": "A stacked lineup, Saturday 22 February, The Annex, and Pay what you can are visibly present.",
+          "source": "supplied"
+        },
+        {
+          "id": "described_visual_treatment",
+          "requirement": "The poster visibly uses a snarling dog, high-contrast halftone, and bold orange duotone treatment.",
+          "source": "supplied"
+        }
+      ]
+    },
+    "comparison_question": null
+  },
+  "attachments": {
+    "A": "artifact.webp"
+  },
+  "expected": {
+    "review_status": [
+      "ready"
+    ],
+    "hard_constraint_statuses": {
+      "A": {
+        "event_information": [
+          "pass"
+        ],
+        "described_visual_treatment": [
+          "pass"
+        ]
+      }
+    }
+  }
+}

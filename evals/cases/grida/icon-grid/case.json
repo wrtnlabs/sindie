@@ -1,0 +1,117 @@
+{
+  "case_version": "0.1.0",
+  "id": "grida-home-gpt-image-2-icon-grid-001",
+  "request": {
+    "task": {
+      "mode": "single",
+      "output_mode": "structured",
+      "interaction_policy": "proceed_degraded",
+      "include_scoring": true,
+      "include_alternatives": false
+    },
+    "artifacts": [
+      {
+        "id": "A",
+        "image": "attachment:A",
+        "medium": "graphic tile system",
+        "dimensions": "1254x1254 pixels",
+        "viewing_conditions": "full square 4x3 tile grid on screen",
+        "completion_state": "final"
+      }
+    ],
+    "intent": {
+      "objective": "Present a cohesive 4x3 family of bold graphic tiles that pairs music and food motifs with punchy slogans.",
+      "audience": "Viewers encountering a playful poster, sticker family, or social graphic system.",
+      "desired_perception": "Bold, playful, rhythmic, and systematic.",
+      "desired_feeling": "Energy and surprise.",
+      "desired_action": "Scan the complete family and quickly recognize each tile's motif.",
+      "content_priorities": [
+        "Consistency across all twelve tiles",
+        "Immediate recognition of each music or food motif",
+        "Controlled variation in color, icon, and slogan"
+      ],
+      "success_criteria": [
+        "Every tile reads as part of the same visual family.",
+        "Each icon and slogan remains legible within the dense grid.",
+        "Repetition creates rhythm without making the set monotonous."
+      ]
+    },
+    "constraints": {
+      "required_content": [
+        "A 4x3 grid of twelve tiles",
+        "Music and food motifs",
+        "Bold sans-serif slogans"
+      ],
+      "brand_guidelines": null,
+      "design_tokens": null,
+      "reference_artifacts": [],
+      "accessibility_requirements": [],
+      "other": [
+        "This is a host-supplied evaluation frame derived from the published source description and visible artifact, not a claim about the original generation prompt.",
+        "Use bold color, flat icons, thick outlines, and a consistent tile grammar."
+      ]
+    },
+    "observed_outcomes": [],
+    "evaluation_contract": {
+      "status": "supplied",
+      "source": "supplied",
+      "contract_id": "music-food-icon-grid",
+      "contract_version": "1.0.0",
+      "contract_hash": "sha256:925c5266fef89353af7c326a7274f5e26c915d5d8e74a9672a723c95a5fca12d",
+      "cross_run_comparable": true,
+      "weights_source": "supplied",
+      "issues": [],
+      "scored_criteria": [
+        {
+          "id": "family_coherence",
+          "question": "Do all twelve tiles share a strong visual grammar while retaining distinct local identities?",
+          "weight": 1,
+          "required_for_score": true
+        },
+        {
+          "id": "semantic_mapping",
+          "question": "Do icon, word, and supporting slogan reinforce one another clearly within each tile?",
+          "weight": 1,
+          "required_for_score": true
+        },
+        {
+          "id": "rhythm_and_variety",
+          "question": "Does repetition create a satisfying scan rhythm while color and motif variation prevent monotony or fragmentation?",
+          "weight": 1,
+          "required_for_score": true
+        }
+      ],
+      "hard_constraints": [
+        {
+          "id": "grid_structure",
+          "requirement": "The artifact contains exactly twelve tiles arranged as four columns by three rows.",
+          "source": "supplied"
+        },
+        {
+          "id": "mixed_motif_content",
+          "requirement": "The tile family visibly includes both music and food motifs with bold sans-serif slogans.",
+          "source": "supplied"
+        }
+      ]
+    },
+    "comparison_question": null
+  },
+  "attachments": {
+    "A": "artifact.webp"
+  },
+  "expected": {
+    "review_status": [
+      "ready"
+    ],
+    "hard_constraint_statuses": {
+      "A": {
+        "grid_structure": [
+          "pass"
+        ],
+        "mixed_motif_content": [
+          "pass"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "case_version": "0.1.0",
+  "id": "grida-home-gpt-image-2-coffee-poster-001",
+  "request": {
+    "task": {
+      "mode": "single",
+      "output_mode": "structured",
+      "interaction_policy": "proceed_degraded",
+      "include_scoring": true,
+      "include_alternatives": false
+    },
+    "artifacts": [
+      {
+        "id": "A",
+        "image": "attachment:A",
+        "medium": "coffee advertising poster",
+        "dimensions": "1122x1402 pixels",
+        "viewing_conditions": "full vertical poster on screen",
+        "completion_state": "final"
+      }
+    ],
+    "intent": {
+      "objective": "Advertise Blue Coffee as an energizing, distinctive dark-roast product through bold typography and a product-led composition.",
+      "audience": "Design-conscious coffee buyers encountering a poster or campaign image.",
+      "desired_perception": "Bold, contemporary, energetic, and product-confident.",
+      "desired_feeling": "Alertness and appetite.",
+      "desired_action": "Notice the message, connect it to Blue Coffee, and consider the product.",
+      "content_priorities": [
+        "WAKE UP TO WHAT MATTERS",
+        "Blue Coffee package",
+        "Dark-roast flavor description"
+      ],
+      "success_criteria": [
+        "The headline creates immediate impact without disconnecting from the product.",
+        "The package remains a clear commercial focal point.",
+        "Typography, blue geometry, texture, and packaging feel like one campaign system."
+      ]
+    },
+    "constraints": {
+      "required_content": [
+        "WAKE UP TO WHAT MATTERS",
+        "Blue Coffee product package"
+      ],
+      "brand_guidelines": null,
+      "design_tokens": null,
+      "reference_artifacts": [],
+      "accessibility_requirements": [],
+      "other": [
+        "This is a host-supplied evaluation frame derived from the published source description and visible artifact, not a claim about the original generation prompt.",
+        "Use a giant headline and a product packaging shot.",
+        "Use a textured neutral background with a vivid blue circle."
+      ]
+    },
+    "observed_outcomes": [],
+    "evaluation_contract": {
+      "status": "supplied",
+      "source": "supplied",
+      "contract_id": "coffee-poster",
+      "contract_version": "1.0.0",
+      "contract_hash": "sha256:0a8a519a4d2deb82d0a2774775fff77d7f19ac21b4479824493904b66d57249e",
+      "cross_run_comparable": true,
+      "weights_source": "supplied",
+      "issues": [],
+      "scored_criteria": [
+        {
+          "id": "advertising_hierarchy",
+          "question": "Does the composition create an immediate reading path from headline to product to supporting flavor information?",
+          "weight": 1,
+          "required_for_score": true
+        },
+        {
+          "id": "product_message_integration",
+          "question": "Does the verbal wake-up message feel meaningfully connected to the Blue Coffee product rather than operating as detached graphic spectacle?",
+          "weight": 1,
+          "required_for_score": true
+        },
+        {
+          "id": "visual_system_coherence",
+          "question": "Do typography, packaging, blue geometry, neutral ground, and texture behave as one intentional advertising system?",
+          "weight": 1,
+          "required_for_score": true
+        }
+      ],
+      "hard_constraints": [
+        {
+          "id": "headline_product_structure",
+          "requirement": "The poster visibly pairs a giant headline with a Blue Coffee product-package shot.",
+          "source": "supplied"
+        },
+        {
+          "id": "described_surface_and_accent",
+          "requirement": "The poster uses a textured neutral background and a vivid blue circle.",
+          "source": "supplied"
+        }
+      ]
+    },
+    "comparison_question": null
+  },
+  "attachments": {
+    "A": "artifact.webp"
+  },
+  "expected": {
+    "review_status": [
+      "ready"
+    ],
+    "hard_constraint_statuses": {
+      "A": {
+        "headline_product_structure": [
+          "pass"
+        ],
+        "described_surface_and_accent": [
+          "pass"
+        ]
+      }
+    }
+  }
+}
