@@ -1,5 +1,7 @@
 # Sindie
 
+![Sindie evaluates visual designs against their intended purpose](.github/assets/sindie-cover.png)
+
 **Sindie (Sr. Designer) is a project to build an intent-aware review layer for visual design.**
 
 It begins with a question:
