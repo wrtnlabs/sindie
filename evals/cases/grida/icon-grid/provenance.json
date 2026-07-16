@@ -1,0 +1,27 @@
+{
+  "provenance_version": "0.1.0",
+  "source": {
+    "collection": "Grida Library Home",
+    "page_url": "https://grida.co/library/o/0d61d3a6-8300-4f08-b411-eca05b2e82b0",
+    "description": "A 4x3 grid of bold, colorful icon tiles pairing music and food motifs with punchy bold sans-serif slogans.",
+    "author": "Grida",
+    "generator": "openai/gpt-image-2",
+    "retrieved_at": "2026-07-16"
+  },
+  "license": {
+    "id": "LicenseRef-GridaLibrary",
+    "url": "https://grida.co/library/license",
+    "asserted_on": "https://grida.co/library/o/0d61d3a6-8300-4f08-b411-eca05b2e82b0",
+    "checked_at": "2026-07-16"
+  },
+  "file": {
+    "path": "artifact.webp",
+    "media_type": "image/webp",
+    "width": 1254,
+    "height": 1254,
+    "byte_size": 232452,
+    "sha256": "9b643a86a678531fc03fe0bfd897f00a8acba6670f9842fa7142e968ac1c3ea6"
+  },
+  "persistence": "repository_fixture",
+  "modifications": []
+}

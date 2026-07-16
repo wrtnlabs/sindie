@@ -1,0 +1,116 @@
+{
+  "case_version": "0.1.0",
+  "id": "grida-home-gpt-image-2-kinetic-mobile-001",
+  "request": {
+    "task": {
+      "mode": "single",
+      "output_mode": "structured",
+      "interaction_policy": "proceed_degraded",
+      "include_scoring": true,
+      "include_alternatives": false
+    },
+    "artifacts": [
+      {
+        "id": "A",
+        "image": "attachment:A",
+        "medium": "fine-art sculpture image",
+        "dimensions": "1537x1023 pixels",
+        "viewing_conditions": "full landscape image on screen",
+        "completion_state": "final"
+      }
+    ],
+    "intent": {
+      "objective": "Create a contemplative image of a suspended kinetic sculpture whose balance, material, light, and shadow make stillness feel potentially mobile.",
+      "audience": "Gallery, art, and design viewers.",
+      "desired_perception": "Refined, physically balanced, restrained, and poetic.",
+      "desired_feeling": "Calm tension and curiosity.",
+      "desired_action": "Linger and trace the relationship among ribbon, spheres, suspension, negative space, and shadow.",
+      "content_priorities": [
+        "The curling patinated metal ribbon",
+        "Suspended spheres and implied balance",
+        "Shadows and surrounding negative space"
+      ],
+      "success_criteria": [
+        "The composition feels balanced without becoming inert.",
+        "Material, suspension, and light feel credible enough to support the illusion.",
+        "Restraint creates a memorable poetic relationship rather than mere emptiness."
+      ]
+    },
+    "constraints": {
+      "required_content": [
+        "A curling patinated metal ribbon",
+        "Hanging spheres",
+        "Soft cast shadows on a warm neutral wall"
+      ],
+      "brand_guidelines": null,
+      "design_tokens": null,
+      "reference_artifacts": [],
+      "accessibility_requirements": [],
+      "other": [
+        "This is a host-supplied evaluation frame derived from the published source description and visible artifact, not a claim about the original generation prompt."
+      ]
+    },
+    "observed_outcomes": [],
+    "evaluation_contract": {
+      "status": "supplied",
+      "source": "supplied",
+      "contract_id": "kinetic-mobile",
+      "contract_version": "1.0.0",
+      "contract_hash": "sha256:ba28b66920dc9583bca2562aa3f343b3db4320097cf15bada3e1619b49cd1ac9",
+      "cross_run_comparable": true,
+      "weights_source": "supplied",
+      "issues": [],
+      "scored_criteria": [
+        {
+          "id": "spatial_balance_and_tension",
+          "question": "Does the arrangement use asymmetry, suspension, scale, and negative space to feel balanced yet potentially mobile?",
+          "weight": 1,
+          "required_for_score": true
+        },
+        {
+          "id": "material_and_light_credibility",
+          "question": "Do patina, mass, wire suspension, light, and shadow support a convincing material and spatial presence?",
+          "weight": 1,
+          "required_for_score": true
+        },
+        {
+          "id": "poetic_economy",
+          "question": "Does the restrained vocabulary produce a specific, memorable experience rather than generic minimalism?",
+          "weight": 1,
+          "required_for_score": true
+        }
+      ],
+      "hard_constraints": [
+        {
+          "id": "described_components",
+          "requirement": "A curling patinated metal ribbon and hanging spheres are visibly present.",
+          "source": "supplied"
+        },
+        {
+          "id": "shadow_and_setting",
+          "requirement": "The suspended form casts soft shadows on a warm neutral wall.",
+          "source": "supplied"
+        }
+      ]
+    },
+    "comparison_question": null
+  },
+  "attachments": {
+    "A": "artifact.webp"
+  },
+  "expected": {
+    "review_status": [
+      "ready"
+    ],
+    "hard_constraint_statuses": {
+      "A": {
+        "described_components": [
+          "pass"
+        ],
+        "shadow_and_setting": [
+          "pass"
+        ]
+      }
+    }
+  }
+}

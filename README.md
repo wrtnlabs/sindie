@@ -88,6 +88,12 @@ Sindie began with a small, informal experiment: show a model visual work, use pr
 
 This is encouraging evidence, not proof that a model appreciates art as people do or that its judgment is reliable. It is enough to make the question worth testing seriously.
 
+## Evaluation harness
+
+Sindie includes a Python evaluation harness built on Inspect AI, with OpenRouter, direct-provider, and generic OpenAI-compatible model support. The canonical prompt remains the source of truth; pure-Python validators enforce its output schema and host-owned scoring rules independently of the model.
+
+Start with [the evaluation guide](EVALS.md). Put the OpenRouter key in a gitignored root `.env`, then run the included visual smoke case or add designer-reviewed cases of your own.
+
 ## Status
 
 The canonical prompt is Sindie's first executable expression of the doctrine. The next work is to test it against designer-reviewed examples and determine when a model's critique demonstrates accurate observation, coherent reasoning, and useful judgment, when it merely sounds plausible, and how to tell the difference.

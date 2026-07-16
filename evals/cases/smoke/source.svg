@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <rect width="900" height="1200" fill="#f2efe8"/>
+  <rect x="70" y="70" width="760" height="12" fill="#151515"/>
+  <text x="70" y="190" fill="#151515" font-family="Helvetica, Arial, sans-serif"
+        font-size="118" font-weight="700" letter-spacing="-6">SINDIE</text>
+  <text x="78" y="250" fill="#151515" font-family="Helvetica, Arial, sans-serif"
+        font-size="25" font-weight="700" letter-spacing="7">VISUAL REVIEW / 001</text>
+  <circle cx="645" cy="555" r="205" fill="#c7ff2f"/>
+  <rect x="95" y="405" width="470" height="315" fill="#151515" transform="rotate(-8 330 562)"/>
+  <text x="145" y="525" fill="#f2efe8" font-family="Helvetica, Arial, sans-serif"
+        font-size="63" font-weight="700" transform="rotate(-8 145 525)">LOOK.</text>
+  <text x="128" y="600" fill="#f2efe8" font-family="Helvetica, Arial, sans-serif"
+        font-size="63" font-weight="700" transform="rotate(-8 128 600)">REASON.</text>
+  <text x="112" y="675" fill="#c7ff2f" font-family="Helvetica, Arial, sans-serif"
+        font-size="63" font-weight="700" transform="rotate(-8 112 675)">QUESTION.</text>
+  <line x1="70" y1="830" x2="830" y2="830" stroke="#151515" stroke-width="4"/>
+  <text x="70" y="905" fill="#151515" font-family="Georgia, serif" font-size="31">
+    Can a model explain why a design works—
+  </text>
+  <text x="70" y="950" fill="#151515" font-family="Georgia, serif" font-size="31">
+    and admit when it cannot know?
+  </text>
+  <text x="70" y="1080" fill="#151515" font-family="Helvetica, Arial, sans-serif"
+        font-size="18" font-weight="700" letter-spacing="3">SCHEMA TRANSPORT SMOKE TEST</text>
+  <rect x="70" y="1120" width="760" height="12" fill="#151515"/>
+</svg>
