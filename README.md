@@ -6,6 +6,8 @@ It begins with a question:
 
 > How can we visually validate whether a design succeeds on its intended terms?
 
+The repository's core artifact is the canonical [Sindie system prompt](PROMPT.md).
+
 ## Why Sindie
 
 Code has mature ways to verify behavior against explicit expectations. Visual design lacks a mature, general-purpose equivalent for reviewing whether a work succeeds on its intended terms.
@@ -88,4 +90,4 @@ This is encouraging evidence, not proof that a model appreciates art as people d
 
 ## Status
 
-Sindie is at its starting point. The first work is to articulate the designer's principles, lenses, vocabulary, examples, and scoring practice, then determine when a model's critique demonstrates accurate observation, coherent reasoning, and useful judgment, when it merely sounds plausible, and how to tell the difference.
+The canonical prompt is Sindie's first executable expression of the doctrine. The next work is to test it against designer-reviewed examples and determine when a model's critique demonstrates accurate observation, coherent reasoning, and useful judgment, when it merely sounds plausible, and how to tell the difference.
